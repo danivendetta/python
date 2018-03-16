@@ -4,10 +4,10 @@
 # and then we create a for loop for visit this URL 100 times and we expect avoid the web's maintenance mode. Good luck!
 
 
-import urllib2
+import urllib.request
 
 Web =  "http://34.253.233.243/search/index.php"
 
 for i in range(0, 100):
-    with urllib.request.urlopen('web) as f:
+    with urllib.request.urlopen(Web) as f:
     print(f.decode('utf-8')
