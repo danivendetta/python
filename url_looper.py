@@ -6,7 +6,7 @@
 
 import urllib.request
 
-Web =  "http://34.253.233.243/search/index.php"
+Web =  "http://CUALQUIER_URL.QUE.TUQUIERAS"
 
 for i in range(0, 101):
     f = urllib.request.urlopen(Web)
