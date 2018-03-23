@@ -8,6 +8,7 @@ import urllib.request
 
 Web =  "http://34.253.233.243/search/index.php"
 
-for i in range(0, 100):
-    with urllib.request.urlopen(Web) as f:
-    print(f.decode('utf-8')
+for i in range(0, 101):
+    f = urllib.request.urlopen(Web)
+    print("Request number ", i)
+    print(f.read(1000).decode('utf-8'))
