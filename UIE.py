@@ -5,10 +5,19 @@
 
 
 import urllib.request
+import sys
 
-Web =  "http://CUALQUIER_URL.QUE.TUQUIERAS"
+Web =  input("Introduce the URL that you want to check, please: ")
 
-for i in range(0, 101):
-    f = urllib.request.urlopen(Web)
-    print("Request number ", i)
-    print(f.read(1000).decode('utf-8'))
+
+#
+# for i in range(0, 101):
+#     f = urllib.request.urlopen(Web)
+#     print("Request number ", i)
+#     print(f.read(1000).decode('utf-8'))
+
+def url_ip_information {
+
+    
+
+}
